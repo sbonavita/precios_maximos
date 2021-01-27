@@ -40,7 +40,7 @@ hojas <- list(
 
 write.xlsx(hojas,
            paste0(
-  "/home/santiago/Nextcloud/Scanntech/Proyectos R/Reportes Periodicos/results/preciosmaximos/",
+  "/home/mi_directorio/",
   Sys.Date(),
   "-precios_maximos.xlsx"),
   row.names = FALSE
