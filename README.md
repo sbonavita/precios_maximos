@@ -1,2 +1,2 @@
 # precios_maximos
-Descarga precios Máximos del Gobierno Nacional
+Desde R, permite descargar y guardar en xls los precios máximos de cada pronvincia o zona.
