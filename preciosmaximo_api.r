@@ -1,3 +1,15 @@
+#Reviso si esta la libreria instalada ----
+packagesrequired <- c("rvest","jsonlite","httr","openxlsx")
+
+for (i in 1:length(packagesrequired)){
+  if(packagesrequired[i] %in% rownames(installed.packages()) == FALSE){
+    install.packages(packagesrequired[i])
+    }
+}
+#Cargo Librerias
+
+
+
 library(rvest)
 library(jsonlite)
 library(httr)
